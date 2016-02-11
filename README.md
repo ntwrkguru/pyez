@@ -2,6 +2,10 @@
 
 No muss, no fuss, no fillers or fluff. Just Ubuntu + the Junos PyEZ packages.
 
+## About Junos PyEZ
+
+*Junos PyEZ* is a Python library to remotely manage/automate Junos devices. The user is NOT required: (a) to be a "Software Programmer™", (b) have sophisticated knowledge of Junos, or (b) have a complex understanding of the Junos XML API. More information can be found on the [py-junos-eznc Github page](https://github.com/Juniper/py-junos-eznc/blob/master/README.md).
+
 ## Prerequisites
 
 Install [Docker](https://docs.docker.com "Getting started with Docker")
