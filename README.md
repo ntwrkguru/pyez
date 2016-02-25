@@ -41,3 +41,7 @@ Run the container
 ## Usage
 
 Hello World and other usage examples on the [py-junos-eznc Github page](https://github.com/Juniper/py-junos-eznc/blob/master/README.md).
+
+## Changelog
+
+- **2016-02-25** - Connected to Docker Hub as an automated build
