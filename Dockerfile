@@ -1,4 +1,4 @@
-FROM phusion/baseimage
+FROM debian:wheezy
 MAINTAINER ntwrkguru@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
