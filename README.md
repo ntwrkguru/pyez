@@ -16,11 +16,11 @@ Install [Docker](https://docs.docker.com "Getting started with Docker")
 
 Download the image
 
-`docker pull ntwrkguru/pyez`
+`docker pull juniper/pyez`
 
 Run the container
 
-`docker run -it ntwrkguru/pyez /bin/bash`
+`docker run -it juniper/pyez /bin/bash`
 
 ### From the Dockerfile
 
