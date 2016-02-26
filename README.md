@@ -1,6 +1,6 @@
 # PyEZ Docker Image
 
-No muss, no fuss, no fillers or fluff. Just Ubuntu + the Junos PyEZ packages.
+No muss, no fuss, no fillers or fluff. Just debian/wheezy + the Junos PyEZ packages.
 
 ## About Junos PyEZ
 
@@ -45,3 +45,4 @@ Hello World and other usage examples on the [py-junos-eznc Github page](https://
 ## Changelog
 
 - **2016-02-25** - Connected to Docker Hub as an automated build
+- **2016-02-26** - Switched to Debian as the base image, reducing the footprint by over 100MB.
