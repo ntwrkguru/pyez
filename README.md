@@ -46,3 +46,4 @@ Hello World and other usage examples on the [py-junos-eznc Github page](https://
 
 - **2016-02-25** - Connected to Docker Hub as an automated build
 - **2016-02-26** - Switched to Debian as the base image, reducing the footprint by over 100MB.
+- **2016-03-20** - Created alpine branch and associated Docker tag using Alpine as the base image
