@@ -8,5 +8,5 @@ openssh \
 && pip install --upgrade pip \
 && pip install ncclient \
 && pip install junos-eznc \
-&& apk del -r --purge gcc make g++
+&& apk del -r --purge gcc make g++ \
 && rm -rf /var/cache/apk/*
