@@ -4,7 +4,7 @@ MAINTAINER ntwrkguru@gmail.com
 
 RUN apk update \
 && apk add gcc g++ make python-dev py-pip py-lxml libxslt-dev libxml2-dev \
-openssh libffi-dev openssl \
+openssh libffi-dev curl \
 && pip install --upgrade pip \
 && pip install ncclient \
 && pip install junos-eznc \
