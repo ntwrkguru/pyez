@@ -20,7 +20,7 @@ Download the image
 
 Run the container
 
-`docker run -it juniper/pyez /bin/bash`
+`docker run -it juniper/pyez sh`
 
 ### From the Dockerfile
 
@@ -36,7 +36,7 @@ Build the image
 
 Run the container
 
-`docker run -it pyez:latest /bin/bash`
+`docker run -it pyez:latest sh`
 
 ## Usage
 
