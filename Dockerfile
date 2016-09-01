@@ -11,4 +11,4 @@ RUN apk update \
     && apk del -r --purge gcc make g++ \
     && rm -rf /var/cache/apk/*
 
-VOLUME $PWD:/scripts
+VOLUME [$PWD:/scripts]
