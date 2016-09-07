@@ -1,49 +1,11 @@
-# PyEZ Docker Image
+# This repo no longer maintained
 
-No muss, no fuss, no fillers or fluff. Just alpine + the Junos PyEZ packages.
+This project has been merged directly into the PyEZ project
 
-## About Junos PyEZ
-
-*Junos PyEZ* is a Python library to remotely manage/automate Junos devices. The user is NOT required: (a) to be a "Software Programmer™", (b) have sophisticated knowledge of Junos, or (b) have a complex understanding of the Junos XML API. More information can be found on the [py-junos-eznc Github page](https://github.com/Juniper/py-junos-eznc/blob/master/README.md).
-
-## Prerequisites
-
-Install [Docker](https://docs.docker.com "Getting started with Docker")
-
-## Installation
-
-### From the Docker Hub
-
-Download the image
-
-`docker pull juniper/pyez`
-
-Run the container
-
-`docker run -it juniper/pyez sh`
-
-### From the Dockerfile
-
-Clone the repo
-
-`git clone https://github.com/ntwrkguru/pyez.git`
-
-`cd pyez`
-
-Build the image
-
-`docker build -t pyez:latest .`
-
-Run the container
-
-`docker run -it pyez:latest sh`
-
-## Usage
-
-Hello World and other usage examples on the [py-junos-eznc Github page](https://github.com/Juniper/py-junos-eznc/blob/master/README.md).
+[https://github.com/Juniper/py-junos-eznc](https://github.com/Juniper/py-junos-eznc)
 
 ## Changelog
-
+- **2016-09-05** - Merged into py-junos-eznc project directly
 - **2016-02-25** - Connected to Docker Hub as an automated build
 - **2016-02-26** - Switched to Debian as the base image, reducing the footprint by over 100MB.
 - **2016-03-20** - Created alpine branch and associated Docker tag using Alpine as the base image
